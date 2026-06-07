@@ -88,6 +88,9 @@ export default function LandingPage() {
       ]}
       title="Featured Collection"
       description="Explore our latest arrivals and timeless pieces, crafted for the discerning eye and a modern aesthetic."
+      buttons={[
+        { text: "View All Products", href: "/products" }
+      ]}
     />
   </div>
 
