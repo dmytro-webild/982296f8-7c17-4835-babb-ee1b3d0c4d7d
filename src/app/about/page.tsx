@@ -26,21 +26,13 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Products",
-          id: "/products",
-        },
+          name: "Products",          id: "/products"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Modern Atelier"
     />
@@ -50,7 +42,6 @@ export default function LandingPage() {
       <TextAbout
       useInvertedBackground={false}
       title="Craftsmanship & Our Commitment to Sustainable Luxury"
-      description="At Modern Atelier, we are committed to the philosophy of slow fashion. Our garments are meticulously crafted in Turkey using sustainable practices and premium, ethically sourced fabrics, ensuring not only lasting quality and style but also a positive impact."
     />
   </div>
 
@@ -61,26 +52,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       team={[
         {
-          id: "team-1",
-          name: "Emine Sultan",
-          role: "Founder & Lead Designer",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-sexy-woman-pink-luxury-dress-summer-trend-chic-style-fashion-designer-working-office-computer_285396-2964.jpg",
-          imageAlt: "Emine Sultan",
-        },
+          id: "team-1",          name: "Emine Sultan",          role: "Founder & Lead Designer",          imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-sexy-woman-pink-luxury-dress-summer-trend-chic-style-fashion-designer-working-office-computer_285396-2964.jpg",          imageAlt: "Emine Sultan"},
         {
-          id: "team-2",
-          name: "Deniz Arslan",
-          role: "Head of Atelier",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-sitting-chair_23-2149213192.jpg",
-          imageAlt: "Deniz Arslan",
-        },
+          id: "team-2",          name: "Deniz Arslan",          role: "Head of Atelier",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-sitting-chair_23-2149213192.jpg",          imageAlt: "Deniz Arslan"},
         {
-          id: "team-3",
-          name: "Aslıhan Pekcan",
-          role: "Marketing & E-commerce",
-          imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-gray-dress-yellow-jacket-is-standing-near-table-workshop-studio-she-has-lot-creative-stuff-table-she-is-smiling-camera_197531-836.jpg",
-          imageAlt: "Aslıhan Pekcan",
-        },
+          id: "team-3",          name: "Aslıhan Pekcan",          role: "Marketing & E-commerce",          imageSrc: "http://img.b2bpic.net/free-photo/brunette-girl-gray-dress-yellow-jacket-is-standing-near-table-workshop-studio-she-has-lot-creative-stuff-table-she-is-smiling-camera_197531-836.jpg",          imageAlt: "Aslıhan Pekcan"},
       ]}
       title="Meet the Visionaries Behind Modern Atelier"
       description="Our passionate team is dedicated to bringing you elegant designs that celebrate individuality and timeless beauty, crafted with a deep understanding of Turkish heritage and modern style."
@@ -91,54 +67,33 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "/about",
-            },
+              label: "About Us",              href: "/about"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
             {
-              label: "Press",
-              href: "#",
-            },
+              label: "Press",              href: "#"},
           ],
         },
         {
-          title: "Shop",
-          items: [
+          title: "Shop",          items: [
             {
-              label: "New Arrivals",
-              href: "/products",
-            },
+              label: "New Arrivals",              href: "/products"},
             {
-              label: "Collections",
-              href: "/products",
-            },
+              label: "Collections",              href: "/products"},
             {
-              label: "Sale",
-              href: "#",
-            },
+              label: "Sale",              href: "#"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "Contact Us",
-              href: "/contact",
-            },
+              label: "Contact Us",              href: "/contact"},
             {
-              label: "FAQs",
-              href: "/contact#faq",
-            },
+              label: "FAQs",              href: "/contact#faq"},
             {
-              label: "Shipping & Returns",
-              href: "#",
-            },
+              label: "Shipping & Returns",              href: "#"},
           ],
         },
       ]}
